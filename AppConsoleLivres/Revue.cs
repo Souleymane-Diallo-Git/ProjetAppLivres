@@ -22,7 +22,7 @@ namespace AppConsoleLivres
         // Héritée de la classe parente par une nouvelle version dans  la classe dérivée.
         public override void AfficherDetails()
         {
-            Console.WriteLine($"La Revue : le titre est {Titre}, L'auteur est {Auteur}, Le nombre de pages est {NombrePages}, Le numero est {Numero} et l'année est {Annee}");
+            Console.WriteLine($"La Revue : le titre est {Titre}, L'auteur est {Auteur}, Le nombre de pages est {NombrePages}, Le numero est {Numero} et l'année est {Annee}.");
         }
     }
 }
